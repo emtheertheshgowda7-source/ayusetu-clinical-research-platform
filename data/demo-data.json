@@ -1,0 +1,26 @@
+{
+  "studies": [
+    {"id":"AYU-IBS-001","title":"Ayurvedic dietary protocol for IBS symptom control","type":"Interventional","pi":"Dr. Meera Nair","sites":6,"target":180,"enrolled":122,"recruitment":68,"iec":"Approved","ctri":"Registered","quality":"96.4%","safety":"2 open","risk":"Low","milestone":"Site activation","status":"Recruiting"},
+    {"id":"AYU-OSTEO-014","title":"Integrative Ayurveda care in knee osteoarthritis","type":"Observational","pi":"Dr. R. Krishnan","sites":4,"target":120,"enrolled":71,"recruitment":59,"iec":"Renewal due","ctri":"Update required","quality":"91.8%","safety":"5 open","risk":"Medium","milestone":"IEC renewal","status":"Recruiting"},
+    {"id":"AYU-DM-023","title":"Prakriti-informed lifestyle intervention for T2DM","type":"Interventional","pi":"Dr. Ananya Rao","sites":8,"target":240,"enrolled":205,"recruitment":85,"iec":"Approved","ctri":"Registered","quality":"98.1%","safety":"1 open","risk":"Low","milestone":"Data cleaning","status":"Follow-up"},
+    {"id":"AYU-SKIN-007","title":"Topical herbal formulation safety registry","type":"Observational","pi":"Dr. Vivek Iyer","sites":3,"target":90,"enrolled":38,"recruitment":42,"iec":"Approved","ctri":"Registered","quality":"87.6%","safety":"9 open","risk":"High","milestone":"Monitoring visit","status":"Recruiting"},
+    {"id":"AYU-ANX-011","title":"Yoga and rasayana support in anxiety symptoms","type":"Interventional","pi":"Dr. Nisha Menon","sites":5,"target":150,"enrolled":108,"recruitment":72,"iec":"Approved","ctri":"Registered","quality":"94.7%","safety":"3 open","risk":"Medium","milestone":"Recruitment","status":"Recruiting"}
+  ],
+  "sites": [
+    {"id":"AIIMS-DEL-01","name":"AIIA Delhi","study":"AYU-IBS-001","enrolled":42,"target":45,"monitoring":"On track","last":"2026-09-18","next":"2026-10-22","findings":1,"risk":"Low"},
+    {"id":"KAR-BLR-03","name":"Bengaluru Ayurveda Centre","study":"AYU-SKIN-007","enrolled":8,"target":30,"monitoring":"Overdue","last":"2026-07-05","next":"2026-10-09","findings":6,"risk":"High"},
+    {"id":"MAH-PUN-02","name":"Pune Integrative Research Unit","study":"AYU-OSTEO-014","enrolled":26,"target":30,"monitoring":"On track","last":"2026-08-29","next":"2026-10-26","findings":2,"risk":"Medium"},
+    {"id":"TN-CHN-04","name":"Chennai Siddha & Ayurveda Institute","study":"AYU-DM-023","enrolled":34,"target":35,"monitoring":"Complete","last":"2026-09-30","next":"2026-11-12","findings":0,"risk":"Low"}
+  ],
+  "safety": [
+    {"id":"PV-2026-0081","type":"SAE","study":"AYU-SKIN-007","site":"KAR-BLR-03","event":"Urticaria with facial edema","severity":"Serious","status":"Medical review","due":"2026-10-07"},
+    {"id":"PV-2026-0078","type":"ADR","study":"AYU-OSTEO-014","site":"MAH-PUN-02","event":"Transient gastric discomfort","severity":"Moderate","status":"Follow-up","due":"2026-10-12"},
+    {"id":"PV-2026-0074","type":"AE","study":"AYU-ANX-011","site":"AIIMS-DEL-01","event":"Dizziness after visit dose","severity":"Mild","status":"Coded","due":"2026-10-18"}
+  ],
+  "audit": [
+    {"time":"2026-10-05 20:48","actor":"Ananya Rao","action":"Reviewed SAE case PV-2026-0081","scope":"Pharmacovigilance","result":"Completed"},
+    {"time":"2026-10-05 19:32","actor":"System","action":"Raised monitoring overdue alert","scope":"KAR-BLR-03","result":"Open"},
+    {"time":"2026-10-05 18:11","actor":"Meera Nair","action":"Approved protocol amendment v2.1","scope":"AYU-IBS-001","result":"Signed"},
+    {"time":"2026-10-05 17:40","actor":"Data Manager","action":"Closed query Q-1094","scope":"AYU-DM-023","result":"Completed"}
+  ]
+}
